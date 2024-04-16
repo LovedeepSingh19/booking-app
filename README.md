@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simple booking-app with weather status using geolocation 🤖
+```Build using Next.js, trpc, prisma, postgres and Typescript```
 
-## Getting Started
+---
 
-First, run the development server:
+### ⭐⭐ Star this Repo to support us ⭐⭐
+---
+
+1. [Getting Started](#getting-started--)
+2. [Structure & Design](#design-plan--)
+
+---
+-------------------------------------------------------
+
+## 🚀 Getting Started <a name="getting-started--"></a>
+
+### Pre-requisites
+
+- [Node.js](https://nodejs.org/) (version V18 or higher)
+- [NPM](https://www.npmjs.com)
+
+### Setup the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/LovedeepSingh19/booking-app.git
+cd booking-app
+
+cp .env.example .env
+Replace the values in .env with your own
+
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Local Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Run `npm run dev` to start service
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-------------------------------------------------------
+## Structure and design <a name="design-plan--"></a>
+Details flow diagram -- 
+https://lucid.app/lucidchart/b7715131-2006-4f6f-bcf5-41f21cc1f143/edit?viewport_loc=-1158%2C-1540%2C7816%2C5887%2C0_0&invitationId=inv_1fc2cf3b-2144-4a4a-a96c-658571fa9bbf
