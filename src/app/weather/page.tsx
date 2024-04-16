@@ -101,7 +101,6 @@ export default function Home() {
           <div key={index} className="bg-slate-500 m-2">
             <h2>{data.name}</h2>
             <p>{data.temp}</p>
-            {/* Render other details as needed */}
           </div>
         ))}
     </div>
