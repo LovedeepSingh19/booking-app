@@ -12,7 +12,7 @@ type WeatherDataProps = {
 const WeatherData:React.FC<WeatherDataProps> = ({session, city, temp}) => {
     
     return (
-        <div className="w-full h-screen flex flex-col justify-center items-center">
+        <div className="w-full h-[70vh] flex flex-col justify-center items-center">
         <div className="w-44 h-44 relative mb-4">
         <Image
           src={session.user?.image as string}
