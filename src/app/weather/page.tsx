@@ -82,13 +82,13 @@ export default function Home() {
       >
         Sign in with google
       </button>
-      <div className="flex items-center">
+      <div className="flex items-center pt-2">
       <input
         type="text"
         placeholder="Enter the name of user"
         value={searchQuery}
         onChange={handleInputChange}
-        className="px-4 py-2 mr-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+        className="px-4 py-2 mr-2 border text-black border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
       />
       <button
         onClick={handleSearch}
@@ -97,12 +97,16 @@ export default function Home() {
         Search
       </button>
     </div>
+    <div className="pt-4">
+
     {listofUsers!.map((data, index) => (
-          <div key={index} className="bg-slate-500 m-2">
-            <h2>{data.name}</h2>
-            <p>{data.temp}</p>
+      <div key={index} className="bg-slate-500 px-4 py-1 rounded-md m-2">
+            <h2>Name -- {data.name}</h2>
+            <p>Temperature -- {data.temp}</p>
+            <p>City -- {data.city}</p>
           </div>
         ))}
+        </div>
     </div>
   );
 }

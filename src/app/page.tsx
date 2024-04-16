@@ -25,8 +25,8 @@ export default function Home() {
           with cheapest prices.
         </h1>
         <p className="mt-5 max-w-prose text-zinc-700 sm:text-1g">
-          Quill allows you to have conversations with any PDF document. Simply
-          upload your file and start asking questions right away.
+        Book<span className="text-blue-600"> Hotels </span> for your next trip
+          with cheapest prices.
         </p>
         <div className="pt-10">
           <Calender
